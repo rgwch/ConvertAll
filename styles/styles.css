@@ -2,6 +2,9 @@ body {
   margin: 0;
 }
 
+.small {
+  font-size:10px;
+}
 .splash {
   text-align: center;
   margin: 10% 0 0 0;

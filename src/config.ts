@@ -6,9 +6,9 @@ export class Config {
     {
       "name": "Gewichte",
       "units": {
+        "Kilogramm (Kg)":1.0,
         "Tonne (t)":1000.0,
         "Zentner (Ztr)": 100.0,
-        "Kilogramm (Kg)":1.0,
         "Pfund (Pfd)": 0.5,
         "Gramm (g)":0.001,
         "Milligramm (mg)":0.000001,
@@ -20,16 +20,16 @@ export class Config {
     {
       "name": "Hohlmasse",
       "units": {
+        "Liter (l)": 1.0,
         "Kubikmeter (m3)": 1000.0,
         "Hektoliter (hl)": 100.0,
-        "Liter (l)": 1.0,
         "Deziliter (dl)": 0.1,
         "Centiliter (cl)": 0.01,
         "Milliliter (ml)": 0.001,
         "Mikroliter (ul)": 0.000001,
         "Gallone (gal)": 3.785,
         "Barrel": 158.987294928,
-        "Fluid Ounce (fl.oz)":235.2145833,
+        "Fluid Ounce (fl.oz)":0.03,
         "Pint":0.56826125,
         "Suppenlöffel":0.015,
         "Teelöffel":0.005,
@@ -52,17 +52,17 @@ export class Config {
       "name":"Energie",
       "units": {
         "Joule (J)": 1.0,
+        "Newtonmeter (Nm)":1.0,
+        "Wattsekunde (Ws)": 1.0,
         "Kilojoule (kJ)": 1000,
         "Megajoule (MJ)": 1000000,
-        "Wattsekunde (Ws)": 1.0,
         "Kilowattstunde (kWh)": 3600000,
         "Kalorie (cal)": 4.1868,
         "Kilokalorie (kcal)": 4186.8,
         "Tonne Steinkohle (SKE)": 29307600000,
         "Barrel Öleinheit (boe)": 5861520000,
         "Liter Benzin": 34900000,
-        "erg": 0.0000001,
-        "Newtonmeter (Nm)":1.0
+        "erg": 0.0000001
       }
     },
     {
@@ -70,8 +70,8 @@ export class Config {
       "units":{
         "Pascal (Pa)":1.0,
         "Kilopascal (kPa)":1000,
-        "Bar (bar)":0.00001,
-        "Millibar (mbar)":0.01,
+        "Bar (bar)":100000,
+        "Millibar (mbar)":100,
         "Atmosphäre (atm)":101325,
         "Pounds per square inch (psi)":6894.757293168,
         "Millimeter Quecksilber, Torr (mmHg)":133.322,
