@@ -1,6 +1,6 @@
 # ConvertAll
 
-Kleines Übungsprojekt, abgeleitet von der aurelia skeleton app (siehe unten)
+Kleines Übungsprojekt, abgeleitet von der aurelia skeleton app (siehe unten). Alles ausser dem Inhalt von "src" ist vom skeleton.
 
 
 
