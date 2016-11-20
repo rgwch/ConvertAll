@@ -28,7 +28,12 @@ export class Config {
         "Milliliter (ml)": 0.001,
         "Mikroliter (ul)": 0.000001,
         "Gallone (gal)": 3.785,
-        "Barrel": 158.987294928
+        "Barrel": 158.987294928,
+        "Fluid Ounce (fl.oz)":235.2145833,
+        "Pint":0.56826125,
+        "Suppenlöffel":0.015,
+        "Teelöffel":0.005,
+        "Tropfen":0.00005
       }
     },
     {
@@ -36,6 +41,8 @@ export class Config {
       "units":{
         "Kilometer pro Stunde (km/h)":0.27777778,
         "Meter pro Sekunde (m/s)": 1.0,
+        "Miles per hour (mph)":0.44704,
+        "Knoten (kt)":0.51444444444,
         "Mach":299.8,
         "c":299792458
       }
@@ -54,7 +61,61 @@ export class Config {
         "Tonne Steinkohle (SKE)": 29307600000,
         "Barrel Öleinheit (boe)": 5861520000,
         "Liter Benzin": 34900000,
-        "erg": 0.0000001
+        "erg": 0.0000001,
+        "Newtonmeter (Nm)":1.0
+      }
+    },
+    {
+      "name":"Druck",
+      "units":{
+        "Pascal (Pa)":1.0,
+        "Kilopascal (kPa)":1000,
+        "Bar (bar)":0.00001,
+        "Millibar (mbar)":0.01,
+        "Atmosphäre (atm)":101325,
+        "Pounds per square inch (psi)":6894.757293168,
+        "Millimeter Quecksilber, Torr (mmHg)":133.322,
+        "Millimeter Wasser (mmH2O)":9.80665
+      }
+    },
+    {
+      "name":"Verbrauch",
+      "units":{
+        "Liter/100km":1.0,
+        "Kilometer pro Liter":100.0,
+        "Miles per Gallon (mpg)":235.2145833
+      }
+    },
+    {
+      "name":"Längen",
+      "units":{
+        "Meter (m)": 1.0,
+        "Kilometer (km)":1000,
+        "Dezimeter (dm)":0.1,
+        "Zentimeter (cm)":0.01,
+        "Millimeter (mm)":0.001,
+        "Mikrometer (um)":0.000001,
+        "Yard (yd)":0.9144,
+        "Fuss (ft)": 0.3048,
+        "Zoll (in)":0.0254,
+        "Meile (mi)": 1609.347219,
+        "Seemeile":1852,
+        "Römische Meile":1481.76
+      }
+    },
+    {
+      "name":"Flächen",
+      "units":{
+        "Quadratmeter (m2)":1.0,
+        "Quadratzentimeter (cm2)":0.0001,
+        "Quadratmillimeter (mm2)":0.0000001,
+        "Are (ar)":100.0,
+        "Hektare (ha)":10000,
+        "Quadratkilometer (km2)":1000000,
+        "Quadratmeile (sq mi)":2589988.110336,
+        "Acre (ac)":4046.8564224,
+        "Quadratfuss (sq ft)":0.09290304,
+        "Quadratzoll (sq in)":0.00064516
       }
     }
   ]
