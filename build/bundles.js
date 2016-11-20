@@ -27,8 +27,11 @@ module.exports = {
         "aurelia-loader-default",
         "aurelia-history-browser",
         "aurelia-logging-console",
-        "bootstrap",
-        "bootstrap/css/bootstrap.css!text",
+        "aurelia-materialize-bridge",
+        "aurelia-materialize-bridge/**/*.js",
+        "aurelia-materialize-bridge/**/*.html!text",
+        "aurelia-materialize-bridge/**/*.css!text",
+        "materialize",
         "fetch",
         "jquery"
       ],

@@ -1,8 +1,15 @@
 # ConvertAll
 
-Kleines Übungsprojekt, abgeleitet von der aurelia skeleton app (siehe unten). Alles ausser dem Inhalt von "src" ist vom skeleton.
+Kleines Übungsprojekt auf Basis von [Aurelia](http://www.aurelia.io), abgeleitet von der aurelia skeleton app (siehe unten). 
+Alles ausser dem Inhalt von "src" und build/bundles.js ist vom skeleton.
 
+Funktion: Konvertiert verschiedene Einheiten untereinander. Responsive UI auf Basis von [Materialize](http://materializecss.com) für Verschiedene Gerätegrössen.
 
+[Live-Vorschau](http://www.elexis.ch/convert)
+
+(Unten das Original-Readme von Aurelia)
+
+--------
 
 # aurelia-skeleton-navigation (typescript)
 

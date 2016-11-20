@@ -1,3 +1,6 @@
+/**
+ * Definitions of the units to convert.
+ */
 export class Config {
   groups = [
     {
@@ -37,6 +40,22 @@ export class Config {
         "c":299792458
       }
 
+    },
+    {
+      "name":"Energie",
+      "units": {
+        "Joule (J)": 1.0,
+        "Kilojoule (kJ)": 1000,
+        "Megajoule (MJ)": 1000000,
+        "Wattsekunde (Ws)": 1.0,
+        "Kilowattstunde (kWh)": 3600000,
+        "Kalorie (cal)": 4.1868,
+        "Kilokalorie (kcal)": 4186.8,
+        "Tonne Steinkohle (SKE)": 29307600000,
+        "Barrel Öleinheit (boe)": 5861520000,
+        "Liter Benzin": 34900000,
+        "erg": 0.0000001
+      }
     }
   ]
 
