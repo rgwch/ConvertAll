@@ -1,3 +1,9 @@
+# ConvertAll
+
+Kleines Übungsprojekt, abgeleitet von der aurelia skeleton app (siehe unten)
+
+
+
 # aurelia-skeleton-navigation (typescript)
 
 ## Running The App
