@@ -79,14 +79,6 @@ export class Config {
       }
     },
     {
-      "name":"Verbrauch",
-      "units":{
-        "Liter/100km":1.0,
-        "Kilometer pro Liter":100.0,
-        "Miles per Gallon (mpg)":235.2145833
-      }
-    },
-    {
       "name":"Längen",
       "units":{
         "Meter (m)": 1.0,
