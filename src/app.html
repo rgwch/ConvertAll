@@ -1,0 +1,29 @@
+<template>
+  <div class="page-host container">
+    <div class="row">
+      <div class="col s12 m3">
+        <select md-select="label:Gruppe" value.bind="selectedGroup" change.trigger="setParams()">
+          <option repeat.for="group of groups" model.two-way="group">${group.name}</option>
+        </select>
+      </div>
+      <div class="col s12 m3">
+        <label for="source">Eingangswert</label>
+        <input type="text" id="source" value.bind="input" blur.trigger="recalc()">
+      </div>
+      <div class="col s12 m3">
+        <select md-select="label:Eingangs-Einheit" md-select.ref="select" value.bind="selectedParam" change.trigger="recalc()">
+          <option repeat.for="param of einheiten" model.bind="param">${param.n}</option>
+        </select>
+      </div>
+      <div class="col s12 m3">
+        <select md-select="label: Ausgangs-Einheit" md-select.ref="select2" value.bind="selectedDest" change.trigger="recalc()">
+          <option repeat.for="dest of einheiten" model.bind="dest">${dest.n}</option>
+        </select>
+      </div>
+      <div class="col s12">
+        <label for="result">Resultat</label>
+        <input type="text" id="result" value.bind="output">
+      </div>
+    </div>
+  </div>
+</template>
