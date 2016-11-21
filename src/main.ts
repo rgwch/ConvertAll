@@ -5,7 +5,9 @@ export function configure(aurelia) {
     aurelia.use
       .standardConfiguration()
       .developmentLogging()
-      .plugin('aurelia-materialize-bridge', bridge => bridge.useSelect().useCard());
+      .plugin('aurelia-materialize-bridge',
+        bridge => bridge.useSelect()
+          .useCard().useColors());
 
     // Uncomment the line below to enable animation.
     // aurelia.use.plugin('aurelia-animator-css');
