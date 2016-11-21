@@ -3,10 +3,22 @@
 Kleines Übungsprojekt auf Basis von [Aurelia](http://www.aurelia.io), abgeleitet von der aurelia skeleton app (siehe unten). 
 Alles ausser dem Inhalt von "src" und build/bundles.js ist vom skeleton.
 
-Funktion: Konvertiert verschiedene Einheiten untereinander. Responsive UI auf Basis von [Materialize](http://materializecss.com) für Verschiedene Gerätegrössen.
+Funktion: Konvertiert verschiedene Einheiten untereinander. Responsive UI auf Basis von [Materialize](http://materializecss.com) für verschiedene Gerätegrössen.
 
 [Live-Vorschau](http://www.elexis.ch/convert)
 
+### in a nutshell
+
+(Falls noch nicht vorhanden: nodejs, jspm und gulp installieren)
+
+      git clone http://github.com/rgwch/convertall
+      cd convertall
+      npm install
+      jspm install -y
+      gulp watch
+      
+Dann mit dem Browser auf http://localhost:9000 gehen.
+      
 (Unten das Original-Readme von Aurelia)
 
 --------
